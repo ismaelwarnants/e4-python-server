@@ -1,10 +1,10 @@
 # Empatica E4 Python Server
 
-#### This is a fork of the original E4 python server script made by [@ismaelwarnants](https://github.com/ismaelwarnants).
+#### This is the merged code from E4 python server script made by [@ismaelwarnants](https://github.com/ismaelwarnants) together with the sensor data reading improvements made by [@mountainaught](https://github.com/mountainaught).
 
 The data parsing methods were modified to match the E4's outputted data types and calibrated to produce (mostly) accurate results. 
 
-Most of it was obtained through laborious reverse-engineering so if there are any issues (or you want to praise me :3) don't hesitate to contact me [here](mailto:e.t.unal@se23.qmul.ac.uk).
+Most of it was obtained through laborious reverse-engineering so if there are any issues (or you want to praise us :3) don't hesitate to contact Erhan [here](mailto:e.t.unal@se23.qmul.ac.uk) or Ismaël [here](mailto:ismael.warnants@edu.upct.es).
 
 ### Original Readme
 This project provides a Python script to connect to an Empatica E4 wristband via Bluetooth LE, stream physiological data in real-time, and save it for analysis. It is a lightweight, command-line tool designed for researchers and developers who need direct access to raw E4 data **without relying on Empatica's official software**.
