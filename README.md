@@ -1,9 +1,13 @@
-# E4 Python Server: Empatica E4 Data Acquisition Tool (without Empatica Server)
+# Empatica E4 Python Server
 
+#### This is a fork of the original E4 python server script made by [@ismaelwarnants](https://github.com/ismaelwarnants).
+
+The data parsing methods were modified to match the E4's outputted data types and calibrated to produce (mostly) accurate results. 
+
+Most of it was obtained through laborious reverse-engineering so if there are any issues (or you want to praise me :3) don't hesitate to contact me [here](mailto:e.t.unal@se23.qmul.ac.uk).
+
+### Original Readme
 This project provides a Python script to connect to an Empatica E4 wristband via Bluetooth LE, stream physiological data in real-time, and save it for analysis. It is a lightweight, command-line tool designed for researchers and developers who need direct access to raw E4 data **without relying on Empatica's official software**.
-
-> [!WARNING]  
-> DISCLAIMER: This code is mostly written by Gemini 2.5 Pro with human supervision and verification of the code. **However the output data has to be verified independently if it is accurate or still requires preprocessing.** There is also a partly working Gadgetbridge integration at [ismaelwarnants/Gadgetbridge-EmpaticaE4](https://github.com/ismaelwarnants/Gadgetbridge-EmpaticaE4). With this integration it is possible to get the same data using an Android device (but for now only visible in the logs).
 
 ## Features
 
@@ -19,9 +23,8 @@ This project provides a Python script to connect to an Empatica E4 wristband via
   * A Bluetooth-enabled computer (tested on Ubuntu 24.04 LTS)
   * An Empatica E4 device
 
-## Installation with `uv`
-
-This project uses `uv`, a fast, modern Python package installer and resolver.
+## Usage with `uv`
+### Installation
 
 1.  **Install `uv`:**
     The recommended way to install `uv` is using its standalone installers.
@@ -57,10 +60,6 @@ This project uses `uv`, a fast, modern Python package installer and resolver.
     sudo apt-get update
     sudo apt-get install python3-tk
     ```
-
-## Usage with uv
-
-All commands should be run from within the project's root directory (`e4-python-server`).
 
 ### Activating the Environment
 
