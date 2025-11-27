@@ -18,6 +18,13 @@ This project provides a Python script to connect to an Empatica E4 wristband via
   * **Post-Session Graphing**: Automatically generate and save a summary image with plots of all sensor data from a saved session.
   * **Advanced Post-Processing**: Includes a standalone tool (graphs.py) to re-generate updated graphs from past sessions with specific noise filtering (e.g., removing EDA settling artifacts). 
 
+## Alternative interfaces for Empatica E4 (work in progress)
+
+  * **Integration into GadgetBridge Android App**, [here](https://github.com/ismaelwarnants/Gadgetbridge-EmpaticaE4), status: *Not working yet*
+  * **API and Frontend for the Empatica E4 Wristband**, [here](https://github.com/mountainaught/sympatica/tree/main), status: *Not working yet*
+
+*Are you interested in collaborating, please let us know: Erhan [here](mailto:e.t.unal@se23.qmul.ac.uk) or Ismaël [here](mailto:ismael.warnants@edu.upct.es)*
+
 ## Requirements
 
   * Python 3.8+
